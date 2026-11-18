@@ -1,0 +1,13 @@
+# Virtual environment
+.venv/
+
+# Audio and workspace junk
+*.wav
+*.mp3
+*.webm
+_infinity_workspace.py
+disk_info.json
+
+# Cache
+__pycache__/
+*.pyc

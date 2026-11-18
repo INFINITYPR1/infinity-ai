@@ -571,3 +571,8 @@ async def clear_memory():
 @app.get("/get_audio")
 async def get_audio():
     return FileResponse("static_response.mp3", media_type="audio/mpeg")
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="127.0.0.1", port=8000)
